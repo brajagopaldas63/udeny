@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy plans and pricing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box alert alert-warning alert-dismissible p-2">
+        <p class="d-flex justify-content-center"><b>Learn by doing</b>| Courses that you don't just watch, on sale now from ₹499.</p>
+            <h4 class="d-flex justify-content-center "><b>1 day left!</b></h4>
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <div class="header">
+      <a href="index.html"> <img src="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg" alt="" width="100px"></a>
+
+       
+       <span class="hidden">
+           explore
+       </span>
+
+       <input type="text" name="" id="search" placeholder="search for anything" class="hidden">
+       <span class="hidden" onclick="plans_pricing()">plans & pricing</span>
+      <span class="hidden" onclick="ubussiness()">Udemy Bussiness</span>
+       <span class="hidden" onclick="tech()">Tech on Udemy</span>
+       <img src="shopping-cart (1).png" alt="" width="2%" id="hidden" onclick="cart()">
+       <button id="loginbtn" onclick="login()">Log In</button>
+       <button id="signbtn" onclick="signup()">Sign Up</button>
+       <img src="internet.icon.png" alt="" id="internetbtn" width="25%" >
+       <img src="menu.png" alt="menu" id="menu" height="50px"
+       width="50px" onclick="internet()">
+     </div>
+       
+       
+   <br>
+     <hr>
+     <center>
+     <div class="sec1" style="justify-content: center;">
+        <h1 style="font-size: 48px;"><b>Choose a plan for success</b>
+           
+        </h1>
+        <p style="font-size: 20px;">Don't want to buy courses one by one? Pick a plan to help you, your team, or your organization achieve outcomes faster.</p>
+     </div>
+     
+    </center>
+    <br>
+    <div class="plans" >
+        <div id="plan1">
+          <div style="background-color: aliceblue;"><h3>Personal plan</h3>
+            <p>for you</p>
+            <img src="user.png" alt="" width="5%">
+            <p style="display: inline;">Individual</p></div>
+            <br>
+            <h3>Starting at ₹850 per month</h3>
+            <p>Billed monthly or annually. Cancel anytime.</p>
+            <br>
+            
+            <button style="background-color: black;color: white;width: 370px;height: 60px;border-radius: 5px;" onclick="login()">Start Suscription &#8594;</button>
+            <br>
+            <br>
+            <ul style="list-style: url();"><li>Access to 12,000+ top courses</li>
+            <li>Certification prep</li>
+            <li> Goal-focused recommendations</li>
+            <li>  AI-powered coding exercises</li></ul>
+                  
+        </div>
+        <div id="plan1">
+          <div style="background-color: aliceblue;"><h3>Team plan</h3>
+            <p>for your Team</p>
+            <img src="group.user.png" alt="" width="5%">
+            <p style="display: inline;">2 to 20 people</p></div>
+            <br>
+            <h3>₹2,000 a month per user</h3>
+            <p>Billed annually. Cancel anytime.</p>
+            <br>
+            
+            <button style="background-color: black;color: white;width: 370px;height: 60px;border-radius: 5px;" onclick="login()">Start Suscription &#8594;</button>
+            <br>
+            <br>
+            <ul style="list-style: url();"><li>Access to 12,000+ top courses</li>
+            <li>Certification prep</li>
+            <li> Goal-focused recommendations</li>
+            <li>  AI-powered coding exercises</li>
+          <li>Analytics and adoption reports</li>
+          </ul>
+                  
+        </div>
+        <div id="plan1">
+          <div style="background-color: aliceblue;"><h3>Enterprise plan</h3>
+            <p>Enterprise Plan</p>
+            <img src="group.user.png" alt="" width="5%">
+            <p style="display: inline;">More than 20 people</p></div>
+            <br>
+            <h3>Contact sales for pricing</h3>
+            
+            <br> 
+            <br>
+            <br>
+            
+            
+          <button style="background-color: black;color: white;width: 370px;height: 60px;border-radius: 5px;" onclick="login()">Start Suscription &#8594;</button>
+          <br>
+          <br>
+          <ul style="list-style: image();"><li>Access to 12,000+ top courses</li>
+            <li>Certification prep</li>
+            <li> Goal-focused recommendations</li>
+            <li>  AI-powered coding exercises</li>
+          <li>Advanced analytics and insights
+            </li>
+          <li>Dedicated customer success team
+           </li>
+          <li> International course collection featuring 15 languages
+           </li>
+          <li> Customizable content
+           </li>
+          <li> Hands-on tech training with add-on
+           </li>
+          <li> Strategic implementation services with add-on</li></ul>
+                  
+        </div>
+        <br>
+        <br>
+        
+        <center>
+            <div>
+            <a href="#" style="color: blue;font-size: 24px;padding-top: 60px;padding-left: 50px;">Compare Plans And Features &#8595;</a>
+            </div>
+        </center>
+  <div class="logo_container" style="height: 200px;padding-top: 100px;">
+<img src="https://cms-images.udemycdn.com/content/tqevknj7om/svg/volkswagen_logo.svg?position=c&quality=80&x.app=portals" alt="">
+<img src="https://cms-images.udemycdn.com/content/2gevcc0kxt/svg/samsung_logo.svg?position=c&quality=80&x.app=portals" alt="">
+<img src="https://cms-images.udemycdn.com/content/ryaowrcjb2/svg/vimeo_logo_resized-2.svg?position=c&quality=80&x.app=portals" alt="">
+<img src="https://cms-images.udemycdn.com/content/mueb2ve09x/svg/cisco_logo.svg?position=c&quality=80&x.app=portals" alt="">
+<img src="https://cms-images.udemycdn.com/content/bthyo156te/svg/procter_gamble_logo.svg?position=c&quality=80&x.app=portals" alt="">
+<img src="https://cms-images.udemycdn.com/content/luqe0d6mx2/svg/hewlett_packard_enterprise_logo.svg?position=c&quality=80&x.app=portals" alt="">
+<img src="https://cms-images.udemycdn.com/content/siaewwmkch/svg/citi_logo.svg?position=c&quality=80&x.app=portals" alt="">
+<img src="https://cms-images.udemycdn.com/content/swmv0okrlh/svg/ericsson_logo.svg?position=c&quality=80&x.app=portals" alt="">
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="feedback" style="padding-top: 100px;">
+    <div id="feedback1">
+      <img src="https://s.udemycdn.com/browse_components/student-quote-unit/quote.svg" alt="" width="10%">
+      <br>
+      <br>
+      <p style="color: grey;font-size: 14px;">Udemy was rated the most popular online course or certification program for learning how to code according to StackOverflow’s 2023 Developer survey.</p>
+      <br>
+      <img src="https://s.udemycdn.com/home/ub-case-studies/logo_stackoverflow.svg" alt="" width="50%">
+      <p style="color: grey;font-size: 16px;">37,076 responses collected</p>
+      <br>
+      <br>
+      
+      <a href="#">View Web Devlopment Courses > </a>
+    </div>
+    <div id="feedback1">
+      <img src="https://s.udemycdn.com/browse_components/student-quote-unit/quote.svg" alt="" width="10%">
+      <br>
+      <br>
+      <p  style="color: grey;font-size: 14px;">Udemy was truly a game-changer and a great guide for me as we brought Dimensional to life.</p>
+      <br>
+      <br>
+      <img src="https://s.udemycdn.com/home/ub-case-studies/Alvin_Lim.jpeg" alt="" width="20%" style="border-radius: 50%;">
+      <p style="display: inline;color: grey;font-size: 14px;">Alvin Lim</p>
+      <br>
+        <p style="display: inline;color: grey;font-size: 12px;">Technical Co-Founder, CTO at Dimensional </p>
+      <br>
+      <br>
+      <br>
+      
+      <a href="#">View the ios & shift course. > </a>
+    </div>
+    <div id="feedback1">
+      <img src="https://s.udemycdn.com/browse_components/student-quote-unit/quote.svg" alt="" width="10%">
+      <br>
+      <br>
+      <p  style="color: grey;font-size: 14px;">Udemy gives you the ability to be persistent. I learned exactly what I needed to know in the real world. It helped me sell myself to get a new role.</p>
+      <br>
+      <img src="https://s.udemycdn.com/home/ub-case-studies/William_A_Wachlin.jpeg" alt="" width="20%" style="border-radius: 50%;">
+      <p style="display: inline;color: grey;font-size: 14px;">William A.</p>
+      <br>
+        <p style="display: inline;color: grey;font-size: 12px;">  Wachlin Partner Account Manager at Amazon Web Services </p>
+        
+      <br>
+      <br>
+      <a href="#">View this AWS course > </a>
+    </div>
+    <div id="feedback1">
+      <img src="https://s.udemycdn.com/browse_components/student-quote-unit/quote.svg" alt="" width="10%">
+      <br>
+      <br>
+      <p style="color: grey;font-size: 14px;">I With Udemy Business employees were able to marry the two together, technology and consultant soft skills... to help drive their careers forward.</p>
+      <br>
+      <img src="https://s.udemycdn.com/home/ub-case-studies/Ian_Stevens.png" alt="" width="20%" style="border-radius: 50%;">
+      
+      <p style="display: inline;color: grey;font-size: 14px;">Ian Stevens</p>
+      <br>
+        <p style="display: inline;color: grey;font-size: 12px;"> Head of Capability Development, North America at Publicis Sapient </p>
+        
+      <br>
+      <br>
+      <a href="#">Read Full Story > </a>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <center>
+    <div class="questions" style="padding-top: 50px;">
+       <h1 style="font-size: 40px;">Frequently asked questions</h1>
+    </div>
+    <div class="questions1">
+      <details>
+        <summary>
+          <h3>How are the courses selected for the plans ?  </h3>
+        </summary>
+        <p style="color: grey;font-size: 16px;padding-left: 10%;padding-right: 10%;">Each course included in our plans is curated from the 250,000+ courses in our overall catalog. Our content experts use insights from 73 million Udemy learners to identify top-rated, relevant courses on the most sought-after professional topics as well as a selection of personal development topics.</p>
+      </details>
+       
+    </div>
+    <div class="questions1">
+      <details>
+        <summary>
+          <h3>How is the personal plan different from buying courses ?  </h3>
+        </summary>
+        <p style="color: grey;font-size: 16px;padding-left: 10%;padding-right: 10%;">With Personal Plan, your learning opportunities are endless. You’ll gain monthly access to our top-rated courses, coding exercises, and practice tests in a variety of professional and personal development categories. You can learn one skill or multiple skills at once. Alternatively, if you buy courses one at a time, you’ll get lifetime access to those courses only.</p>
+      </details>
+    </div>
+    <div class="questions1">
+      <details>
+        <summary>
+          <h3>What language those Enterprise plan have content for ?</h3>
+        </summary>
+        <p style="color: grey;font-size: 16px;padding-left: 10%;padding-right: 10%;">Enterprise Plan includes our international collection of original-language content in 16 languages, including English, Spanish, Portuguese, French, Italian, German, Indonesian, Japanese, Korean, Polish, Russian, Turkish, Arabic, Hindi, Vietnamese, and simplified and traditional Chinese.</p>
+      </details>
+        
+    </div>
+    <div class="questions1">
+      <details>
+        <summary>
+          <h3>Udemy Bussiness for you  ? </h3>
+        </summary>
+        <p style="color: grey;font-size: 16px;padding-left: 10%;padding-right: 10%;">With the Udemy Business Pro add-on for Enterprise Plan, you get access to a powerful combination of learning tools for your tech learners. In addition to the top-rated courses available with your plan, your employees can also take advantage of hands-on training features like assessments, labs, workspaces, and Udemy paths.</p>
+      </details>
+        
+    </div>
+  </center>
+  
+  <div style="padding-top: 100px;">
+ 
+  </div>
+  <div class="start_footer" style="padding: 0 !important;">
+    <h3 style="font-size: 20px;">Top companies choose Udemy Business to build in-demand career skills.</h3>
+    <img src="https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg" alt="">
+  <img src="https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg" alt="">
+  <img src="https://s.udemycdn.com/partner-logos/v4/box-light.svg" alt="">
+  <img src="https://s.udemycdn.com/partner-logos/v4/netapp-light.svg" alt="">
+  <img src="https://s.udemycdn.com/partner-logos/v4/eventbrite-light.svg" alt="">
+  </div>
+  <div class="footer">
+  <div class="footer1">
+    <h4>Certifications by Issuer</h4>
+    <br>
+    <br>
+    <a href="#">Amazon Web Services (AWS) Certifications</a>
+    <br>
+    <a href="#">Six Sigma Certifications</a>
+    <br>
+    <a href="#">Microsoft Certifications</a>
+    <br>
+    <a href="#">Cisco Certifications</a>
+    <br>
+    <a href="#">Tableau Certifications</a>
+    <br>
+    <a href="#">See all Certifications</a>
+    
+  </div>
+  <div class="footer1_2">
+    <h4>Web Developmentr</h4>
+    <br>
+    <br>
+    <a href="#">Java Script</a>
+    <br>
+    <a href="#">React Js</a>
+    <br>
+    <a href="#">Angular</a>
+    <br>
+    <a href="#">java</a>
+    <br>
+    <a href="#">Tableau Certifications</a>
+    
+  </div>
+  <div class="footer1_2">
+    <h4>IT Certifications</h4>
+    <br>
+    <br>
+    <a href="#">Amazon AWS</a>
+    <br>
+    <a href="#">AWS Certified Cloud Practitioner</a>
+    <br>
+    <a href="#">AZ-900: Microsoft Azure Fundamentals</a>
+    <br>
+    <a href="#">AWS Certified Solutions Architect - Associate</a>
+    <br>
+    <a href="#">Kubernetes</a>
+   
+  </div>
+  <div class="footer1_2">
+    <h4>Leadership
+      </h4>
+    <br>
+    <br>
+    <a href="#">Leadership
+      </a>
+    <br>
+    <a href="#">Management Skills
+      </a>
+    <br>
+    <a href="#">Project Management
+     </a>
+    <br>
+    <a href="#"> Personal Productivity
+      </a>
+    <br>
+    <a href="#">Emotional Intelligenc</a>
+   
+  </div>
+  
+  
+  </div>
+    
+    <div class="footer_sec2">
+      <div class="footer1">
+        <h4>Certifications by Skill</h4>
+        <br>
+        
+        <a href="#">Cybersecurity Certification</a>
+        <br>
+        <a href="#">Project Management Certification</a>
+        <br>
+        <a href="#">Cloud Certification
+         </a>
+        <br>
+        <a href="#"> Data Analytics Certification
+          </a>
+        <br>
+        <a href="#">HR Management Certification
+         </a>
+        <br>
+        <a href="#"> See all Certifications</a>
+        
+      </div>
+      <div class="footer1_2">
+        <h4>Data Science</h4>
+        <br>
+        
+        <a href="#"> Data Science
+          </a>
+        <br>
+        <a href="#">Python
+          </a>
+        <br>
+        <a href="#">Machine Learning
+          </a>
+        <br>
+        <a href="#">ChatGPT
+          </a>
+        <br>
+        <a href="#">Deep Learning</a>
+        
+      </div>
+      <div class="footer1_2">
+        <h4>Communication</h4>
+        <br>
+        
+        <a href="#">Communication Skills</a>
+        <br>
+        <a href="#">Presentation Skills</a>
+        <br>
+        <a href="#">Public Speaking
+          </a>
+        <br>
+        <a href="#">Writing
+         </a>
+        <br>
+        <a href="#"> PowerPoint</a>
+       
+      </div>
+      <div class="footer1_2">
+        <h4>Business Analytics & Intelligence</h4>
+        <br>
+        <br>
+        <a href="#">Microsoft Excel</a>
+        <br>
+        <a href="#">SQL
+         </a>
+        <br>
+        <a href="#"> Microsoft Power BI
+          </a>
+        <br>
+        <a href="#">Data Analysis
+          </a>
+        <br>
+        <a href="#">Business Analysis</a>
+       
+      </div>
+      
+      
+    <br><br>
+    <br>  
+    </div>
+      <div class="footer_sec3">
+        <div class="footer1">
+          <h4>About
+           </h4>
+          <br>
+          <br>
+          <a href="#"> About us
+            </a>
+          <br>
+          <a href="#">Careers
+           </a>
+          <br>
+          <a href="#"> Contact us
+            </a>
+          <br>
+          <a href="#">Blog
+            </a>
+          <br>
+          <a href="#">Investors</a>
+          <br>
+          
+          
+        </div>
+        <div class="footer1_2">
+          <h4>Discovery Udemy
+           </h4>
+          <br>
+          <br>
+          <a href="#"> Get the app
+            </a>
+          <br>
+          <a href="#">Teach on Udemy
+            </a>
+          <br>
+          <a href="#">Plans and Pricing
+            </a>
+          <br>
+          <a href="#">Affiliate
+            </a>
+          <br>
+          <a href="#">Help and Support</a>
+          
+        </div>
+        <div class="footer1_2">
+          <h4>Udemy for Business
+            </h4>
+          <br>
+          <br>
+          <a href="#">Udemy Business</a>
+          <br>
+          
+         
+        </div>
+        <div class="footer1_2">
+          <h4>Legal & Accessibility
+           </h4>
+          <br>
+          <br>
+          <a href="#"> Accessibility statement
+            </a>
+          <br>
+          <a href="#">Privacy policy
+           </a>
+          <br>
+          <a href="#"> Sitemap
+            </a>
+          <br>
+          <a href="#">Terms</a>
+          <br>
+          <br>
+  
+          <hr>
+          
+         
+        </div>
+        <hr>
+        </div>
+        <div class="footer_sec4">
+          
+          <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt="" width="100px" alt="" >
+          <p style="display: inline;">© 2024 Udemy, Inc.</p>
+          <a href="#">Cookie Setting</a>
+          <p>English</p>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
